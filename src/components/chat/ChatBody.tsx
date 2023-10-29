@@ -14,7 +14,6 @@ export default function ChatBody() {
 
   const Reload = () => {
     const data = JSON.parse(localStorage.getItem(MESSAGE)!) as ChatData[];
-    console.log(data);
     if (data.length < SIZE) {
         value.setData && value.setData(data);
     } else {
