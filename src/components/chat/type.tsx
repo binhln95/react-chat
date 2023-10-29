@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import { ChatContextData, ChatData } from './ChatContext';
 export const MESSAGE = 'message';
-export const SIZE = 3;
+export const SIZE = 25;
 export interface IFooterProp {
     message?: string
     sendMessage?: () => void;
